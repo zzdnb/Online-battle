@@ -1,0 +1,241 @@
+.ac-game-settings{
+    width: 100%;
+    height: 100%;
+    background-image: url("/static/image/menu/background00.gif");
+    background-size: 100% 100%;
+    user-select: none;
+}
+
+.ac-game-settings-login{
+    height: 45vh;
+    width: 20vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+}
+
+.ac-game-settings-title {
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+    padding-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.ac-game-settings-username {
+    display: block;
+    height: 7vh;
+}
+
+.ac-game-settings-password {
+    display: block;
+    height: 7vh;
+}
+
+.ac-game-settings-submit {
+    display: block;
+    height: 7vh;
+}
+
+.ac-game-settings-logo {
+    display: block;
+    height: 7vh
+}
+
+.ac-game-settings-logo > img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+
+.ac-game-settings-logo > div {
+    padding-top: 4px;
+    color: white;
+    font-size: 1.5vh;
+    text-align: center;
+
+}
+
+.ac-game-settings-item {
+    width: 100%;
+    height: 100%;
+}
+
+.ac-game-settings-item > button {
+    color: white;
+    width: 90%;
+    line-height: 3vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
+.ac-game-settings-item > input {
+    width: 90%;
+    line-height: 3vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ac-game-settings-error-message {
+    color: red;
+    font-size: 0.8vh;
+    display: inline;
+    float: left;
+    padding-left: 1vw;
+}
+
+.ac-game-settings-option {
+    color: white;
+    font-size: 2vh;
+    display: inline;
+    float: right;
+    padding-right: 1vw;
+    cursor: pointer;
+}
+
+.ac-game-settings-register{
+    height: 49vh;
+    width: 20vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+}
+
+
+
+.ac-game-menu{
+    width: 100%;
+    height: 100%;
+    background-image: url("/static/image/menu/background00.gif");
+    background-size: 100% 100%;
+    user-select: none;
+}
+
+.ac-game-menu-field{
+    width: 20vw;
+    position: relative;
+    top: 40%;
+    left: 20%;
+}
+
+.ac-game-menu-field-item{
+    color: white;
+    height: 6vh;
+    width: 18vw;
+    font-size: 4vh;
+    font-style: italic;
+    text-align: center;
+    background-color: rgba(39,21,28,0.6);
+    border-radius: 10px;
+    letter-spacing: 0.5vw;
+    cursor: pointer;
+}
+
+.ac-game-menu-field-item:hover{
+    transform: scale(1.2);
+    transition: 100ms;
+}
+
+.ac-game-playground {
+    width: 100%;
+    height: 100%;
+    user-select: none;
+}
+
+.ac-game-choose-skin {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    background-size: 100% 100%;
+    background-color: rgba(176,224,230);
+}
+
+.ac-game-choose-skin-change-left{
+    position: absolute;
+    border-top: 5vh solid transparent;
+    border-right: 5vw solid Silver  ;
+    border-bottom: 5vh solid transparent;
+    position: relative;
+    top: 40%;
+    left: 15%;
+    letter-spacing: 0.5vw;
+    cursor: pointer;
+    display:inline-block;
+}
+
+.ac-game-choose-skin-change-left:hover{
+    transform: scale(1.2);
+    transition: 100ms;
+}
+
+.ac-game-choose-skin-change-right{
+    position: absolute;
+    border-top: 5vh solid transparent;
+    border-left: 5vw solid Silver   ;
+    border-bottom: 5vh solid transparent;
+    position: relative;
+    top: 40%;
+    left: 75%;
+    letter-spacing: 0.5vw;
+    cursor: pointer;
+    display:inline-block;
+}
+
+.ac-game-choose-skin-change-right:hover{
+    transform: scale(1.2);
+    transition: 100ms;
+}
+
+.ac-game-choose-skin-sure {
+    position: absolute;
+    width: 10vw;
+    position: relative;
+    top: 70%;
+    left: 46%;
+    color: white;
+    font-size: 4vh;
+    font-style: italic;
+    text-align: center;
+    background-color: rgba(144,238,144,0.6);
+    border-radius: 10px;
+    letter-spacing: 0.5vw;
+    cursor: pointer;
+}
+
+.ac-game-choose-skin-sure:hover {
+    transform: scale(1.2);
+    transition: 100ms;
+}
+
+.ac-game-choose-skin-show {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+    top: 22%;
+    left: 38%;
+    color: white;
+    font-size: 4vh;
+    font-style: italic;
+    text-align: center;
+    background-color: rgba(144,238,144,0.6);
+    border-radius: 10vw;
+    letter-spacing: 0.5vw;
+    cursor: pointer;
+}

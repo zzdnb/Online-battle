@@ -1,0 +1,23 @@
+{% load static %}
+
+<head>
+    <link rel="stylesheet" href="https://cdn.acwing.com/static/jquery-ui-dist/jquery-ui.min.css">
+    <script src="https://cdn.acwing.com/static/jquery/js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="{% static 'css/game.css' %}">
+    <link rel="shortcut icon" href="https://git.acwing.com/RyanMoriarty/homework/-/raw/master/ganyu.png" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
+    <title>只球--反复去世</title>
+</head>
+
+<body style="margin: 0">
+    <div id="ac_game_12345678">
+        <audio class="ac-game-menu-bgm" src="https://app27.acapp.acwing.com.cn/static/audio/menu/menu.mp3" autoplay='autoplay' loop='loop'></audio>
+    </div>
+    <script type="module">
+        import {AcGame} from "{% static 'js/dist/game.js' %}";
+        $(document).ready(function(){
+            let ac_game = new AcGame("ac_game_12345678");
+        });
+        console.log("hello,world");
+    </script>
+</body>
