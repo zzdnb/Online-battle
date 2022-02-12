@@ -342,5 +342,31 @@
 .ac-game-chat-field-history::-webkit-scrollbar {
     width: 0;
 }
+.ac_game_menu_game_option {
+    width: 32vw;
+    position: relative;
+    height: 30vh;
+    background-color: rgb(176 192 216 / 60%);
+    /* color: brown; */
+    left: 61%;
+    border-radius: 3px;
+}
+
+.ac_game_menu_game_option_headline {
+    width: 32vw;
+    height: 7vh;
+    font-size: 40px;
+    /* font-style: italic; */
+    text-align: center;
+}
+
+.ac_game_menu_game_option_operator {
+	
+    width:35vw;
+	height: 5vh;
+	font-size:25px;
+	
+    text-align: center;
+}
 
 

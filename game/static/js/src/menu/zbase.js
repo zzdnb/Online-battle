@@ -3,6 +3,13 @@ class AcGameMenu {
         this.root=root;
         this.$menu = $(`
 <div class="ac-game-menu">
+       <div class="ac_game_menu_game_option">
+        <div class="ac_game_menu_game_option_headline">游戏公告</div>
+        <div class="ac_game_menu_game_option_operator">&nbsp&nbsp&nbsp&nbsp<a href = "https://blog.zzdnb.cn/archives/guan-yu-you-xi-de-shuo-ming" target="_blank"><b><font color="#FF0000">游戏说明</font></b></a>（点击左方查看）</div>
+    <div class="ac_game_menu_game_option_operator">&nbsp&nbsp&nbsp&nbsp欢迎关注个人博客：<a href = "https://blog.zzdnb.cn/" target="_blank"><font color="#05c256"><b>福尔摩东的blog</font><b></a></div>
+    <div class="ac_game_menu_game_option_operator">初次登录，若服务器带宽问题加载较慢，请见谅！</div>
+
+    </div> 
     <div class="ac-game-menu-field">
         <div class="ac-game-menu-field-item ac-game-menu-field-item-single-mode">
             单人模式
